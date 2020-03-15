@@ -1,12 +1,12 @@
 package com.company.variables;
 
-public class Task8 {
+public class DiscountShirts {
     public static void main(String[] args) {
-        int oneShirt = 2500;
-        int numberShirts = 2;
-        int discountShirts = 3;
-        int shirtDifference = discountShirts-numberShirts;
-        int allPriceShirts = oneShirt * numberShirts;
+        final int oneShirt = 2500;
+        final int numberShirts = 2;
+        final int discountShirts = 3;
+        final int shirtDifference = discountShirts-numberShirts;
+        final int allPriceShirts = oneShirt * numberShirts;
         System.out.println("Цена одной рубашки " + oneShirt);
         System.out.println("Колличество выбранных рубашек " + numberShirts);
         System.out.println("Колличество рубашек которые, необходимо купить " + discountShirts);
